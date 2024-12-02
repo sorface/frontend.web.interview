@@ -9,9 +9,11 @@ services:
       context: ../
       dockerfile: docker/proxy/Dockerfile
       args:
-        - REACT_APP_BACKEND_URL=http://localhost:9000
-        - REACT_APP_VERSION=1.0.0-Docker
-        - NGINX_DOMAIN=localhost
-        - NGINX_SECURITY_BACKEND_URL=http://localhost:9000
+        - REACT_APP_BACKEND_URL=http://localhost:9000/api/product/interview
+        - REACT_APP_LOGIN_URL=http://localhost:9000/oauth2
+        - REACT_APP_LOGOUT_URL=http://localhost:9000/logout
+        - REACT_APP_PASSPORT_URL=http://localhost:9000/api/passport
+        - REACT_APP_WS_URL=ws://localhost:9000/ws
+        - REACT_APP_BUILD_HASH=DEV
     ports:
       - "9020:80"
