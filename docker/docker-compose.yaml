@@ -14,6 +14,6 @@ services:
         - REACT_APP_LOGOUT_URL=http://localhost:9000/logout
         - REACT_APP_PASSPORT_URL=http://localhost:9000/api/passport
         - REACT_APP_WS_URL=ws://localhost:9000/ws
-        - REACT_APP_BUILD_HASH=DEV
+        - REACT_APP_BUILD_HASH=1.0.0-Docker
     ports:
       - "9030:80"
