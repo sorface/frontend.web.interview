@@ -1,0 +1,11 @@
+.activeQuestionSelector-container .no-questions {
+  padding: 0.5rem;
+}
+
+.activeQuestionSelector-input {
+  height: 1.625rem;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  line-height: 1rem;
+}

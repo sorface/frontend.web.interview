@@ -1,0 +1,7 @@
+.reactions-list {
+  display: flex;
+}
+
+.reactions-list .switch-button {
+  z-index: 1;
+}

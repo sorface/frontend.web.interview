@@ -1,0 +1,16 @@
+.invitations-modal-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0rem 1rem;
+  padding-bottom: 1.75rem;
+}
+
+.invitations-modal-item-link-field {
+  display: flex;
+}
+
+.invitations-modal-refresh-all {
+  margin-bottom: 1.25rem;
+}

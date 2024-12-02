@@ -1,0 +1,81 @@
+.room-wrapper .fields-wrap {
+  margin: 0rem;
+}
+
+.room-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.room-page .room-page-header {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.room-page .room-page-header-wrapper {
+  display: flex;
+}
+
+.room-page .room-page-header-caption {
+  display: flex;
+  text-align: left;
+}
+
+.room-page .room-page-header-caption h3 {
+  display: inline-block;
+}
+
+.room-page .room-page-header-caption-viewer {
+  width: 100%;
+  flex-direction: column;
+}
+
+.room-page .room-page-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding-bottom: 0.25rem;
+}
+
+.room-page .room-page-main-content {
+  flex: 1;
+  min-height: 0;
+}
+
+.room-page .room-title {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  font-size: var(--menu-font-size);
+}
+
+.room-page .room-title h2 {
+  display: inline-block;
+}
+
+.room-page .room-title button {
+  display: inline-block;
+  position: absolute;
+  right: 1.5rem;
+}
+
+.room-page .copy-link-button {
+  position: absolute;
+  margin-left: 8rem;
+}
+
+.room-page .actions-field {
+  display: inline-flex;
+  width: calc(var(--chat-width) + 1.5rem);
+  align-items: center;
+}
+
+.room-page .room-columns {
+  display: flex;
+  height: 100%;
+}

@@ -1,0 +1,37 @@
+.typography {
+  font-weight: 400;
+  line-height: 150%;
+  overflow-wrap: break-word;
+}
+
+.typography-xxxl {
+  font-size: 2.25rem;
+}
+
+.typography-xxl {
+  font-size: 1.25rem;
+}
+
+.typography-xl {
+  font-size: 1.125rem;
+}
+
+.typography-l {
+  font-size: 1rem;
+}
+
+.typography-m {
+  font-size: 0.875rem;
+}
+
+.typography-s {
+  font-size: 0.75rem;
+}
+
+.typography-xs {
+  font-size: 0.625rem;
+}
+
+.typography-bold {
+  font-weight: 600;
+}

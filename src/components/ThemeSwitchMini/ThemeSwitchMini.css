@@ -1,0 +1,7 @@
+.theme-switch-mini {
+  display: flex;
+  cursor: pointer;
+  text-align: left;
+  user-select: none;
+  z-index: 10;
+}

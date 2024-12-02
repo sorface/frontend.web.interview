@@ -1,0 +1,24 @@
+.questions-page .items-grid .question-item {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.questions-page .items-grid .question-controls {
+  position: absolute;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.25rem 1rem;
+  right: 2.5rem;
+}
+
+.questions-page .items-grid .question-controls button {
+  padding: 0rem 0.75rem;
+}
+
+.questions-page .items-grid .question-item-new-value {
+  width: 80%;
+}
