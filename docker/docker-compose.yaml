@@ -16,4 +16,4 @@ services:
         - REACT_APP_WS_URL=ws://localhost:9000/ws
         - REACT_APP_BUILD_HASH=DEV
     ports:
-      - "9020:80"
+      - "9030:80"
