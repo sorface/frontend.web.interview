@@ -13,7 +13,7 @@ import {
   roomsApiDeclaration,
 } from '../../apiDeclarations';
 import { MainContentWrapper } from '../../components/MainContentWrapper/MainContentWrapper';
-import { REACT_APP_WS_URL } from '../../config';
+import { REACT_APP_ROOM_STREAM_WS_URL } from '../../config';
 import { EventName, inviteParamName, pathnames } from '../../constants';
 import { AuthContext } from '../../context/AuthContext';
 import { useApiMethod } from '../../hooks/useApiMethod';
@@ -90,7 +90,7 @@ export const Room: FunctionComponent = () => {
   const [recognitionEnabled, setRecognitionEnabled] = useState(false);
   const [invitationsOpen, setInvitationsOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
-  const socketUrl = `${REACT_APP_WS_URL}/ws?roomId=${id}`;
+  const socketUrl = `${REACT_APP_ROOM_STREAM_WS_URL}/ws?roomId=${id}`;
   const checkWebSocketReadyToConnect = () => {
     if (!inviteParam) {
       return true;
