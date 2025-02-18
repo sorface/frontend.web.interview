@@ -20,7 +20,6 @@ import {RoomReview} from '../pages/RoomReview/RoomReview';
 import {RoomAnaytics} from '../pages/RoomAnaytics/RoomAnaytics';
 import {LogoutError} from '../pages/LogoutError/LogoutError';
 import {QuestionsArchive} from '../pages/QuestionsArchive/QuestionsArchive';
-import OTPForm from "../../../../sorface-sso-server/client/src/pages/OTPPage/OTPForm";
 
 interface AppRoutesProps {
     user: User | null;
